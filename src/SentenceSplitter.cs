@@ -159,7 +159,7 @@ namespace SentenceSplitter {
                         wp1 = words[index + 1];
                         wp1C = Capital(wp1);
 
-                        // Cjecl yje wprd after the next one
+                        // Check the word after the next one
                         if (index + 2 >= words.Length) {
                             wp2 = "NP";
                             wp2C = "NP";
